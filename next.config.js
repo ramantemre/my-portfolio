@@ -4,6 +4,7 @@ const nextConfig = {
   exportPathMap: function () {
     return {
       "/": { page: "/" },
+      "/about": { page: "/about" },
     };
   },
 };
