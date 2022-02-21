@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const debug = process.env.NODE_ENV !== "production";
+const prod = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   reactStrictMode: true,
@@ -9,7 +9,10 @@ const nextConfig = {
       "/about": { page: "/about" },
     };
   },
-  assetPrefix: !debug ? "/my-portfolio/" : "",
+  assetPrefix: prod ? "/my-portfolio/" : "",
+  env: {
+    BACKEND_URL: prod ? "/my-portfolio/" : "",
+  },
 };
 
 module.exports = nextConfig;

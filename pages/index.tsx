@@ -18,13 +18,13 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <div>
-          Hello World.{" "}
-          <Link href="/about">
+          Hello World.
+          <Link href="/about" as={process.env.BACKEND_URL + "/about"}>
             <a>About</a>
           </Link>
         </div>
         <p className={styles.description}>
-          Get started by editing{" "}
+          Get started by editing
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
