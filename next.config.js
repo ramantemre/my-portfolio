@@ -9,7 +9,7 @@ const nextConfig = {
       "/about": { page: "/about" },
     };
   },
-  assetPrefix: !debug ? "/my-portfolio/out/" : "",
+  assetPrefix: !debug ? "/my-portfolio/" : "",
 };
 
 module.exports = nextConfig;
