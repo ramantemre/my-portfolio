@@ -1,0 +1,27 @@
+/* font-family: Rubik,sans-serif;
+font-size: 16px;
+font-weight: 300;
+-webkit-text-size-adjust: none;
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+box-sizing: border-box;
+margin: 0;
+
+padding: 40px; */
+
+.box {
+  background-color: #f1f8fa;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.boxText {
+  margin-top: 15px;
+  font-size: 1.125rem;
+  line-height: 175%;
+}
+
+.box a {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}

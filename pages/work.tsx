@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-const About = () => {
+const Work = () => {
   return (
     <div>
-      <div>About us</div>
+      <div>Work</div>
       <div>
         Back to{" "}
         <Link href="/" as={process.env.BACKEND_URL + "/"}>
@@ -13,4 +13,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default Work;

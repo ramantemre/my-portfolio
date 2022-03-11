@@ -1,0 +1,28 @@
+.navFirst {
+  flex-direction: row;
+  display: flex;
+}
+
+.dashLine {
+  background: #4b6cc1;
+  border-radius: 1000px;
+  content: "";
+  display: block;
+  height: 6px;
+  max-width: 30px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.navBtn {
+  color: #5e5e5e;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-top: 3.640776699%;
+  font-weight: 600;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: #4b6cc1 0.35s ease;
+}
